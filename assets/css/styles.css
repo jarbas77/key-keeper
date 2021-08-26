@@ -48,11 +48,11 @@
   --mb-2: 2rem;
   --mb-2-5: 2.5rem;
 
-  /*========== z index ==========*/
+  /* z index */
   --z-tooltip: 10;
   --z-fixed: 100;
 
-  /*========== Hover overlay ==========*/
+  /* Hover overlay */
   --img-transition: .3s;
   --img-hidden: hidden;
   --img-scale: scale(1.1);
@@ -70,7 +70,7 @@
   }
 }
 
-/*========== Variables Dark theme ==========*/
+/* Variables Dark theme */
 body.dark-theme {
   --first-color-second: hsl(var(--hue-color), 54%, 12%);
   --title-color: hsl(var(--hue-color), 24%, 95%);
@@ -81,7 +81,7 @@ body.dark-theme {
   --scroll-thumb-color: hsl(var(--hue-color), 12%, 36%);
 }
 
-/*========== Button Dark/Light ==========*/
+/* Button Dark/Light */
 .nav__dark {
   display: flex;
   align-items: center;
@@ -104,7 +104,7 @@ body.dark-theme {
   font-size: var(--small-font-size);
 }
 
-/*=============== BASE ===============*/
+/* BASE */
 * {
   box-sizing: border-box;
   padding: 0;
@@ -186,7 +186,7 @@ input {
   gap: 1.5rem;
 }
 
-/*=============== HEADER ===============*/
+/* HEADER */
 .header {
   width: 100%;
   position: fixed;
@@ -196,7 +196,7 @@ input {
   background-color: transparent;
 }
 
-/*=============== NAV ===============*/
+/* NAV */
 .nav {
   height: var(--header-height);
   display: flex;
@@ -292,7 +292,7 @@ input {
   left: 0;
 }
 
-/*=============== HOME ===============*/
+/* HOME */
 .home__img {
   position: absolute;
   top: 0;
@@ -376,7 +376,7 @@ input {
   transform: var(--img-scale);
 }
 
-/*=============== BUTTONS ===============*/
+/* BUTTONS */
 .button {
   display: inline-block;
   background-color: var(--first-color);
@@ -405,7 +405,7 @@ input {
   background: none;
 }
 
-/*=============== ABOUT ===============*/
+/* ABOUT */
 .about__data {
   text-align: center;
 }
@@ -447,7 +447,7 @@ input {
   transform: var(--img-scale);
 }
 
-/*=============== DISCOVER ===============*/
+/* DISCOVER */
 .discover__card {
   position: relative;
   width: 200px;
@@ -488,7 +488,7 @@ input {
   background-image: none;
 }
 
-/*=============== EXPERIENCE ===============*/
+/* EXPERIENCE */
 .experience__container {
   row-gap: 2.5rem;
   justify-content: center;
@@ -543,7 +543,7 @@ input {
   right: 0;
 }
 
-/*=============== VIDEO ===============*/
+/* VIDEO */
 .video__container {
   padding-bottom: 1rem;
 }
@@ -568,7 +568,7 @@ input {
   font-size: 1.2rem;
 }
 
-/*=============== PLACES ===============*/
+/* Houses */
 .place__card, .place__img {
   height: 230px;
 }
@@ -643,7 +643,7 @@ input {
   padding: .75rem 1rem;
 }
 
-/*=============== SUBSCRIBE ===============*/
+/* Email */
 .subscribe__bg {
   background-color: var(--first-color-second);
   padding: 2.5rem 0;
@@ -677,7 +677,7 @@ input {
   color: var(--text-color);
 }
 
-/*=============== SPONSORS ===============*/
+/* Companies */
 .sponsor__container {
   grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
   justify-items: center;
@@ -694,7 +694,7 @@ input {
   transition: var(--img-transition);
 }
 
-/*=============== FOOTER ===============*/
+/* FOOTER */
 .footer__container {
   row-gap: 5rem;
 }
